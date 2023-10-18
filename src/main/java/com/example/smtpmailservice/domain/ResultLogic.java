@@ -36,7 +36,7 @@ public class ResultLogic implements Runnable{
         for(int i = 0; i < testTimes; i++){
             List<Integer> originBallBag = new ArrayList<>();
             List<Integer> testResult = new ArrayList<>();
-            for(int b = firstBall; b < totalBall; b++){
+            for(int b = firstBall; b < (totalBall + firstBall); b++){
                 originBallBag.add(b);
             }
 

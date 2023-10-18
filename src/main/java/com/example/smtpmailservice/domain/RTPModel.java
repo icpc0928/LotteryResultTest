@@ -61,5 +61,13 @@ public class RTPModel {
         this.expectResult = expectResult;
     }
 
-
+    @Override
+    public String toString() {
+        return "RTPModel{" +
+                "testTimes=" + testTimes +
+                ", hitCount=" + hitCount +
+                ", expectResult=" + expectResult +
+                ", report='" + report + '\'' +
+                '}';
+    }
 }
